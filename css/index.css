@@ -1,0 +1,30 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#main{
+    position: relative;
+}
+
+#main .box{
+
+    padding: 15px 0px 0px 15px;
+    float: left;
+}
+
+/*设置图片的相关属性*/
+#main .box .pic{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+    width: 165px;
+}
+
+#main .box .pic  img{
+    width: 165px;
+    height: auto;
+}
